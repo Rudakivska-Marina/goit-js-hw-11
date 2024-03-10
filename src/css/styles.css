@@ -181,6 +181,8 @@ a {
   display: grid;
   border: 4px solid #0000;
   border-radius: 50%;
+  border-right-color: #2e2f42;
+  animation: l15 1s infinite linear;
 }
 
 .loader::before,
@@ -190,6 +192,7 @@ a {
   margin: 2px;
   border: inherit;
   border-radius: 50%;
+  animation: l15 2s infinite;
 }
 
 .loader::after {
